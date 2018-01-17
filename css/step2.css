@@ -1,0 +1,160 @@
+#header{
+	height: 0.8rem;
+	background: #313131;
+	
+}
+#header ul {
+	display: -webkit-box;
+}
+#header ul li{	
+	height: 0.8rem;
+	color: #fff;
+	line-height: 0.8rem;
+}
+#header ul li:nth-child(1) {
+	width: 0.8rem;
+	text-align: center;
+}
+#header ul li:nth-child(2) {
+	-webkit-box-flex: 1;
+	text-align: center;
+	font-size: 0.25rem;
+}
+#header ul li:nth-child(3) {
+	width: 0.8rem;
+}
+#container{
+	-webkit-box-flex: 1;	
+	background: #f3f3f3;
+	
+}
+#container .step{
+	width: 100%;
+	height: 1.8rem;
+	text-align: center;
+	background: #fff;	
+	box-sizing: border-box;
+	box-shadow: 0px 0.06rem 0.16rem #dadada;
+}
+#container .step img{
+	width: 85%;
+	margin-top: 0.3rem;
+	box-sizing: border-box;
+}
+#container .step p{
+	display: -webkit-box;	
+}
+#container .step p span{
+	-webkit-box-flex: 1;
+	font-size: 0.25rem;
+	color: #9a9a9a;
+	display: block;		
+}
+#container .step p span:nth-child(1) {
+	color: #f67a6e;
+}
+#container .step p span:nth-child(2) {
+	color: #f67a6e;
+}
+#container .step p span:nth-child(3) {
+	color: #f67a6e;
+}
+#container p{
+	text-align: center;
+}
+#container .charge{
+	position: absolute;
+	bottom: 0.4rem;
+	width: 100%;
+}
+#container .base .top,.base .fee{
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	padding-left: 0.36rem;
+	box-sizing: border-box;
+	color: #c8c8c8;
+	font-size: 0.24rem;	
+}
+#container .detail ul{
+	padding: 0 0.1rem;	
+	box-sizing: border-box;
+	background: #fff;
+	box-shadow: 0px 0.1rem 0.16rem #dadada;
+}
+#container .detail ul li{
+	display: -webkit-box;	
+	height: 0.7rem;
+	line-height: 0.7rem;
+	border-bottom: 1px solid #dcdcdc;	
+	font-size: 0.25rem;
+}
+#container .detail ul li:nth-last-child(1) {
+	border-bottom: none;
+}
+#container .detail ul li p{
+	-webkit-box-flex: 1;	
+	text-align: left;
+	text-indent: 0.14rem;	
+}
+#container .detail ul li p span:nth-child(1){
+	margin-right: 0.4rem;
+	box-sizing: border-box;
+	width: 1.44rem;
+	display: inline-block;
+}
+#container .detail ul li p:nth-child(1) {
+	padding-right: 0.48rem;
+	box-sizing: border-box;
+}
+#container .fee_total ul{
+	padding: 0 0.1rem;	
+	box-sizing: border-box;
+	background: #fff;
+	box-shadow: 0px 0.1rem 0.16rem #dadada;
+}
+#container .fee_total ul li{
+	display: -webkit-box;	
+	height: 0.7rem;
+	line-height: 0.7rem;
+	border-bottom: 1px solid #dcdcdc;	
+	font-size: 0.25rem;
+}
+#container .fee_total ul li:nth-last-child(1) {
+	border-bottom: none;
+}
+#container .fee_total ul li p{
+	-webkit-box-flex: 1;
+	text-align: left;
+	text-indent: 0.14rem;	
+}
+#container .fee_total ul li p span:nth-child(1){
+	margin-right: 0.3rem;
+	box-sizing: border-box;
+	width: 1.44rem;
+	display: inline-block;
+}
+#container .fee_total ul li p:nth-child(1) {
+	margin-right: 0.48rem;
+	box-sizing: border-box;
+}
+#container .fee_msg{
+	margin-top: 0.2rem;
+	line-height: 0.3rem;
+}
+.red{
+	color: #f44933;
+}
+#container .charge .next{	
+	width: 80%;
+	height: 0.8rem;
+	border-radius: 0.1rem;
+	background: #f45a46;	
+	color: #fff;
+	outline: none;
+	border: none;
+	margin-top: 0.8rem;
+	box-sizing: border-box;	
+	font-size: 0.36rem;
+	font-family: "微软雅黑";
+}

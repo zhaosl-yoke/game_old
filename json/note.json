@@ -1,0 +1,34 @@
+{
+    "success": true,
+    "msg": null,
+    "token": null,
+    "target": null,
+    "body": {
+        "voterInfos": [
+        	{
+	            "voterName": "阿萌萌呀",
+	            "voterPath": null,
+	            "createTime": "1487663523089",
+	            "isVip": 1
+        	},
+        	{
+	            "voterName": "阿萌萌呀",
+	            "voterPath": null,
+	            "createTime": "1487663523089",
+	            "isVip": 1
+        	},
+        	{
+	            "voterName": "阿萌萌呀",
+	            "voterPath": null,
+	            "createTime": "1487663523089",
+	            "isVip": 1
+        	},
+        	{
+	            "voterName": "阿萌萌呀",
+	            "voterPath": null,
+	            "createTime": "1487663523089",
+	            "isVip": 1
+        	}
+        ]
+    }
+}

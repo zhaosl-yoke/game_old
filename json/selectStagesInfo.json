@@ -1,0 +1,74 @@
+{
+    "success": true,
+    "msg": null,
+    "token": null,
+    "target": null,
+    "body": {
+        "stagesInfo": [
+            {
+                "id": 1,
+                "contestId": 2,
+                "stageType": "online",
+                "codeName": "海选",
+                "codeLevel": 1,
+                "fee": 1,
+                "startTime": 1487121792000,
+                "endTime": 1487726598000,
+                "actived": "1",
+                "address": null,
+                "desc1": "这是一场美轮美奂的比赛",
+                "createTime": 1487208212000,
+                "contestantCount": null,
+                "promotedNum": null
+            },
+             {
+                "id": 1,
+                "contestId": 2,
+                "stageType": "onlineLive",
+                "codeName": "初赛",
+                "codeLevel": 1,
+                "fee": 1,
+                "startTime": 1487121792000,
+                "endTime": 1577726598000,
+                "actived": "1",
+                "address": null,
+                "desc1": "这是一场美轮美奂的比赛",
+                "createTime": 1487208212000,
+                "contestantCount": null,
+                "promotedNum": 200
+            },
+             {
+                "id": 1,
+                "contestId": 2,
+                "stageType": "offline",
+                "codeName": "复赛",
+                "codeLevel": 1,
+                "fee": 1,
+                "startTime": 1487121792000,
+                "endTime": 1676726598000,
+                "actived": "1",
+                "address": null,
+                "desc1": "这是一场美轮美奂的比赛",
+                "createTime": 1487208212000,
+                "contestantCount": null,
+                "promotedNum": 100
+            },
+             {
+                "id": 1,
+                "contestId": 2,
+                "stageType": "offline",
+                "codeName": "决赛",
+                "codeLevel": 1,
+                "fee": 1,
+                "startTime": 1487121792000,
+                "endTime": 1678726598000,
+                "actived": "1",
+                "address": null,
+                "desc1": "这是一场美轮美奂的比赛",
+                "createTime": 1487208212000,
+                "contestantCount": null,
+                "promotedNum": 20
+            }
+        ]
+    }
+}

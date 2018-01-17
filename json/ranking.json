@@ -1,0 +1,40 @@
+{
+    "success": true,
+    "msg": "查询排名成功",
+    "token": null,
+    "target": null,
+    "body": {
+        "myRank": 0,
+        "myPhoto": null,
+        "contestRanking": [
+	        {
+	        	"userName":"黄蒙蒙",
+				"userPhoto":null,
+				"userId":1,
+				"count":100,
+				"userRank":1
+	        },
+	         {
+	        	"userName":"黄蒙蒙",
+				"userPhoto":null,
+				"userId":1,
+				"count":100,
+				"userRank":2
+	        },
+	         {
+	        	"userName":"黄蒙蒙",
+				"userPhoto":null,
+				"userId":1,
+				"count":100,
+				"userRank":3
+	        },
+	         {
+	        	"userName":"黄蒙蒙",
+				"userPhoto":null,
+				"userId":1,
+				"count":100,
+				"userRank":4
+	        }
+        ]
+    }
+}

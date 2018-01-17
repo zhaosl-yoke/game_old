@@ -1,0 +1,92 @@
+#header{
+	height: 0.8rem;
+	background: #313131;
+	
+}
+#header ul {
+	display: -webkit-box;
+}
+#header ul li{	
+	height: 0.8rem;
+	color: #fff;
+	line-height: 0.8rem;
+}
+#header ul li:nth-child(1) {
+	width: 0.8rem;
+	text-align: center;
+}
+#header ul li:nth-child(2) {
+	-webkit-box-flex: 1;
+	text-align: center;
+	font-size: 0.3rem;
+}
+#header ul li:nth-child(3) {
+	width: 0.8rem;
+	text-align: center;
+	font-size: 0.5rem;
+}
+#container{
+    -webkit-box-flex: 1;
+    overflow-y: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    background:#f3f3f3;
+}
+
+.notice{
+	margin: 0 0.1rem;
+	margin-top: 0.1rem;
+    -webkit-box-flex: 1;
+    overflow: scroll;
+}
+.notice .time{
+	text-align: center;
+	margin: 0.1rem auto 0.2rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	font-size: 0.24rem;	
+	width: 50%;
+	padding: 0.1rem 0.3rem;
+}
+.noticeList{
+	height: 2.8rem;
+	border: solid 1px #ccc;
+	border-radius:0.1rem;
+	font-size: 0.24rem;
+	margin-bottom: 0.2rem;
+}
+.notice h3 {
+	font-size: 0.25rem;
+	padding: 0.1rem 0;
+    border-bottom: solid 1px #ccc;
+}
+.noticeList h4{
+	font-size: 0.25rem;
+	font-weight: normal;
+	text-align: center;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.noticeList p{
+	margin: 0 0.2rem;
+	font-size: 0.22rem;
+	line-height:0.36rem; 
+}
+.noticeList .color{
+	color: #ccc;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.notice h3 .title {
+    font-size: 0.3rem;
+    padding-left: 0.1rem;
+    border-left: solid 0.1rem #f44933;
+}
+.notice h3 .show {
+    font-weight: normal;
+    font-size: 0.25rem;
+    margin-left: 3.2rem;
+}

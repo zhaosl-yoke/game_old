@@ -1,0 +1,426 @@
+#header{
+	height: 0.8rem;
+	background: #313131;
+	
+}
+#header ul {
+	display: -webkit-box;
+}
+#header ul li{	
+	height: 0.8rem;
+	color: #fff;
+	line-height: 0.8rem;
+}
+#header ul li:nth-child(1) {
+	width: 0.8rem;
+	text-align: center;
+}
+#header ul li:nth-child(2) {
+	-webkit-box-flex: 1;
+	text-align: center;
+	font-size: 0.3rem;
+}
+#header ul li:nth-child(3) {
+	width: 0.8rem;
+	text-align: center;
+	font-size: 0.5rem;
+}
+
+#container{
+    -webkit-box-flex: 1;
+    overflow-y: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    background:#f3f3f3;
+}
+.swiper-wrapper .swiper-slide{
+	height: 100%;
+}
+.swiper-wrapper .swiper-slide:nth-of-type(1){
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.swiper-wrapper .swiper-slide:nth-of-type(2){
+	background: url(../img/beijing.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.swiper-wrapper .swiper-slide:nth-of-type(3){
+	background: url(../img/haixuan.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.introduce .swiper-slide img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.introduce .swiper-pagination-bullet{
+	width: 6px;
+	height: 6px;
+	background: #888;
+	opacity: 1;
+}
+.introduce .swiper-pagination-bullet-active{
+	background: #fff;
+}
+#container .favor{
+	position: relative;
+	background: #3c345a url(../img/bj.png) no-repeat;
+	height: 1rem;
+	background-position: -0.26rem;
+	background-size: 100%;
+}
+#container .favor img:nth-child(1) {
+	position: absolute;
+	left: 1.2rem;
+	top: 0.15rem;
+	width: 60%;
+}
+#container .favor img:nth-child(2) {
+	position: absolute;
+	top: 0.1rem;
+	right: 0.56rem;
+	width: 11%;
+}
+#container .favor img:nth-child(3) {
+	position: absolute;
+	top: 0rem;
+	right: 0rem;
+	width: 7%;
+}
+#container .favor span{
+	font-size: 0.22rem;
+	color: #f53365;
+	position: absolute;
+	left: 3.4rem;
+	top: 0.56rem;
+	font-weight: bold;
+}
+#container .top{
+	height: 0.8rem;
+	box-shadow: 0px 0.1rem 0.16rem #dadada;
+	background: #fff;
+	font-size: 0.25rem;	
+}
+#container .top ul{
+	display: -webkit-box;
+}
+#container .top ul li{
+	display: block;
+	line-height: 0.8rem;
+	-webkit-box-flex: 1;
+	text-align: center;	
+}
+.top .active{
+	border-bottom: solid 0.06rem #f44933;
+}
+#container .introduce{
+	-webkit-box-flex: 1;
+	font-size: 0.25rem;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-top: 0.1rem;	
+}
+.introduce .margin{
+	background: #fff;
+	margin: 0 0.1rem 0.15rem 0.1rem;
+}
+.introduce .content{
+	border-top: solid 1px #ececec;
+	padding: 0 0.1rem;
+	margin: 0 0.1rem;
+}
+.introduce .content ul{
+	overflow: hidden;
+	margin-top:0.2rem;
+}
+.introduce .content ul li{
+	list-style: none;
+	text-align: center;
+	border: solid 3px #969696;
+	width: 100%;
+	height: 2.1rem;	
+	margin-bottom: 0.2rem;
+	box-sizing: border-box;	
+}
+.introduce .content ul li p{
+	line-height:0.3rem;
+	font-size: 0.26rem;
+}
+.introduce .content ul li a{
+	display: block;
+	margin-top: 0.1rem;
+	color:red;
+}
+.introduce .content ul li h2{
+	margin: 0.18rem 0; 
+	font-size:0.32rem;
+	margin-bottom: 0.15rem;
+}
+.introduce h3{
+	height: 0.63rem;
+	line-height: 0.63rem;	
+}
+.introduce h3 .title{
+	font-size: 0.3rem;	
+	padding-left: 0.1rem;
+	border-left: solid 0.1rem #f44933;	
+	margin-left: 0.1rem;
+}
+.introduce h3 .show{
+	font-weight: normal;
+	font-size: 0.25rem;
+	float: right;
+	margin-right: 0.2rem;
+}
+.introduce .p1{
+	font-size: 0.24rem;
+	line-height: 0.42rem;
+}
+.production{
+	margin-top: 0.1rem;
+	-webkit-box-flex: 1;
+	position:relative;
+	overflow: hidden;
+}
+#mys1 .swiper-slide{
+	width: 2.91rem;
+	display: inline-block;
+	background: #fff;
+	margin: 0.16rem 0.1rem;
+	box-sizing: border-box;
+	border: solid 1px #fff;
+	vertical-align: -webkit-baseline-middle;
+	color: #000;
+}
+.production{
+	font-size: 0.25rem;
+}
+.swiper-container{
+	background: #fff;
+}
+.production .swiper-slide .img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.production .swiper-slide .user{
+	width: 20%;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 0.2rem;
+}
+.production .swiper-slide p{
+	margin-bottom: 0.1rem;
+}
+.production .swiper-slide p span{
+	font-size: 0.25rem;
+}
+.production .swiper-slide .fixed{
+	font-size: 0.24rem;
+	width: 0.24rem;
+}
+.production .swiper-pagination-bullet{
+	width: 6px;
+	height: 6px;
+	background: #888;
+	opacity: 1;
+}
+.production .swiper-pagination-bullet-active{
+	background: #fff;
+}
+.production .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom: 2px;
+}
+.production h3{
+	font-size: 0.4rem;
+	text-align: center;
+	color: #fff;
+}
+.production .p2{
+	font-size: 0.25rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 0.3rem;
+}
+.production .p3{
+	font-size: 0.25rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 0.1rem;
+}
+.production ul:nth-child(1) li p:nth-of-type(1){
+	margin-top: 0.3rem;
+}
+.production p span{
+	font-size: 0.22rem;
+}
+.production p .vote{
+	float: right;
+	background: #f44933;
+	padding: 0.02rem 0.08rem;
+	font-size: 0.2rem;
+	margin-top: 0.14rem;
+}
+.production h3 .title{
+	font-size: 0.3rem;	
+	padding-left: 0.1rem;
+	border-left: solid 0.1rem #f44933;	
+	margin-left: 0.1rem;
+}
+.production h3 .more{
+	margin-left: 4rem;
+	font-weight: normal;
+	font-size: 0.24rem;
+}
+.production ul a:nth-child(1) {
+	margin-top: 0;
+}
+.production ul {
+	position: relative;
+	padding: 0.14rem;
+	background: #fff;
+	margin-bottom: 0.1rem;
+}
+.production ul span{
+	position:absolute;
+	top: 0.2rem;
+	right: 0.2rem;
+	font-size: 0.24rem;
+	color: #fff;
+}
+.production ul li{
+	display: block;
+	color: #313131;
+	width: 100%;
+	height: 2.4rem;
+	padding-top:0.6rem;
+	box-sizing: border-box;
+}
+.production ul li img{
+	width: 20%;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.6rem;
+}
+.production ul li span {
+	position: absolute;
+	top: 0.38rem;
+	left: 0.2rem;
+	font-size: 0.24rem;
+}
+.production ul li span {
+	position: absolute;
+	top: 0.38rem;
+	left: 0.2rem;
+	font-size: 0.24rem;
+}
+.production ul:nth-child(1) li {
+	background: url(../img/haixuan.png) no-repeat;
+	background-size: cover;
+}
+.production ul:nth-child(2) li {
+	background: url(../img/chusai.png) no-repeat;
+	background-size: cover;
+}
+.production ul:nth-child(3) li {
+	background: url(../img/fusai.png) no-repeat;
+	background-size: cover;
+}
+.production ul:nth-child(4) li {
+	background: url(../img/juesai.png) no-repeat;
+	background-size: cover;
+}
+.imgList ul{
+	overflow: hidden;
+}
+.imgList ul li{
+	width: 2.9rem;
+	float: left;
+	height: 1.6rem;
+	background: #ccc;
+	font-size: 0.3rem;
+	margin: 0.1rem;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 1.6rem;
+	border-radius: .2rem;
+	color: #fff;
+	background:url(../img/beijing.png) no-repeat;
+	background-size: cover;
+}
+.newsList{
+	height: 4rem;
+	border: solid 1px #ccc;
+	border-radius:0.1rem;
+	font-size: 0.24rem;
+	margin-top: 0.1rem;
+}
+.newsList ul{
+	padding: 0.1rem;
+	
+}
+.newsList ul li{
+	list-style-type: square;
+	margin-left: 0.3rem;
+	border-bottom: dotted 1px #ccc;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.newsList ul li span{
+	color: blue;
+	margin-left: 0.1rem;
+}
+.newsList ul li:nth-child(1) {
+	color: #f44933;
+}
+#footer .btn{	
+	position: relative;
+	font-size: 0.3rem;
+	text-align: center;	
+	width: 100%;
+	height: 0.8rem;	
+	line-height: 0.8rem;
+	margin: 0.1rem 0;
+	box-sizing: border-box;
+}
+#footer .btn a{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	height: 0.8rem;	
+	line-height: 0.8rem;
+	background: #F44933;
+	border-radius: 0.1rem;
+	width: 90%;
+}
+.notice{
+	margin: 0 0.1rem;
+	margin-top: 0.1rem;
+    -webkit-box-flex: 1;
+    overflow: scroll;
+}
+.notice h3 {
+	font-size: 0.25rem;
+	padding: 0.1rem 0;
+    border-bottom: solid 1px #ccc;
+}
+.notice h3 .title {
+    font-size: 0.3rem;
+    padding-left: 0.1rem;
+    border-left: solid 0.1rem #f44933;
+}
+.notice h3 .show {
+    font-weight: normal;
+    font-size: 0.25rem;
+    margin-left: 3.2rem;
+}
+

@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+i{
+	font-style: normal;
+}
+b{
+	font-weight: normal;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑";
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	letter-spacing: 1px;
+	background: #fff;
+	color: #313131;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+input::-webkit-input-placeholder { /* WebKit browsers*/ 
+　　color:#a9a9a9;font-size:0.24rem;font-family: "微软雅黑";
+　　}
+input:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+　　color:#a9a9a9;font-size:0.24rem;font-family: "微软雅黑";
+　　}
+input::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+　　color:#a9a9a9;font-size:0.24rem;font-family: "微软雅黑";
+　　}
+input:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+　　color:#a9a9a9;font-size:0.24rem;font-family: "微软雅黑";
+}

@@ -1,0 +1,107 @@
+{
+    "success": true,
+    "msg": null,
+    "token": null,
+    "target": null,
+    "body": {
+        "contestantPosts": [
+            {
+                "type": 0,
+                "id": 1,
+                "thumb": null,
+                "ballot": 100,
+                "contestantId": 1,
+                "contestantName" : "黄蒙蒙",
+                "contestantPhoto": null,
+                "paragraphName": "小太阳",
+                "contestantPostId":1,
+                "isLive":0,
+                "areaName":"武汉区",
+                "majorName":"钢琴",
+                "groupName":"成人组",
+                "total": 200
+            },
+            {
+                "type": 0,
+                "id": 1,
+                "thumb": null,
+                "ballot": 100,
+                "contestantId": 1,
+                "contestantName" : "黄蒙蒙",
+                "contestantPhoto": null,
+                "paragraphName": "小太阳",
+                "contestantPostId":1,
+                "isLive":0,
+                 "areaName":"武汉区",
+                "majorName":"钢琴",
+                "groupName":"成人组",
+                "total": 200
+          
+            },
+            {
+                "type": 0,
+                "id": 1,
+                "thumb": null,
+                "ballot": 100,
+                "contestantId": 1,
+                "contestantName" : "黄蒙蒙",
+                "contestantPhoto": null,
+                "paragraphName": "小太阳",
+                "contestantPostId":1,
+                "isLive":0,
+                 "areaName":"武汉区",
+                "majorName":"钢琴",
+                "groupName":"成人组",
+                "total": 200
+            },
+            {
+                "type": 0,
+                "id": 1,
+                "thumb": null,
+                "ballot": 100,
+                "contestantId": 1,
+                "contestantName" : "黄蒙蒙",
+                "contestantPhoto": null,
+                "paragraphName": "小太阳",
+                "contestantPostId":1,
+                "isLive":1,
+                 "areaName":"武汉区",
+                "majorName":"钢琴",
+                "groupName":"成人组",
+                "total": 200
+            },
+            {
+                "type": 0,
+                "id": 1,
+                "thumb": null,
+                "ballot": 100,
+                "contestantId": 1,
+                "contestantName" : "黄蒙蒙",
+                "contestantPhoto": null,
+                "paragraphName": "小太阳",
+                "contestantPostId":1,
+                "isLive":1,
+                 "areaName":"武汉区",
+                "majorName":"钢琴",
+                "groupName":"成人组",
+                "total": 200
+            },
+            {
+                "type": 0,
+                "id": 1,
+                "thumb": null,
+                "ballot": 100,
+                "contestantId": 1,
+                "contestantName" : "黄蒙蒙",
+                "contestantPhoto": null,
+                "paragraphName": "小太阳",
+                "contestantPostId":1,
+                "isLive":1,
+                 "areaName":"武汉区",
+                "majorName":"钢琴",
+                "groupName":"成人组",
+                "total": 200
+            }
+        ]
+    }
+}

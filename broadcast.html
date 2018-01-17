@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="h5/swiper/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" href="css/broadcast.css" />		
+	</head>
+	<body>
+		<div id="container">		
+			<div class="introduce">
+				<div class="list">
+					<div class="search">
+						<input type="text" id="studentName" placeholder="请输入选手姓名或选手编号" />
+						<button>搜索</button>
+					</div>
+					<!-- <div class="option">
+						<select class="city">
+							<option value="">城市</option>
+							<option value="">武汉</option>
+							<option value="">北京</option>
+						</select>
+						<select class="major">
+							<option value="">专业</option>
+			 			</select>
+						<select class="group">
+							<option value="">组别</option>
+						</select>
+						<select class="total">
+							<option value="">综合排序</option>
+						</select>
+					</div> -->
+					
+						<div class="option">
+						<ul>
+						    <li class="city aa" selecttype="city"><span data-id="">城市</span><i class="iconfont icon-down"></i></li>
+						  	<li class="major aa" selecttype="major"><span data-id="">专业</span><i class="iconfont icon-down"></i></li>
+						  	<li class="group aa" selecttype="group"><span data-id="">组别</span><i class="iconfont icon-down"></i></li>
+						  	<li class="total aa" selecttype="total"><span data-id="">综合排序</span><i class="iconfont icon-down"></i></li>
+						</ul>
+						<div class="selectContent" id="cityInfos" style="display:none;">
+					    	<ul>
+					    		<li data-id="01">北京</li>
+					    		<li data-id="02">上海</li>
+					    	</ul>
+					    </div>
+					    <div class="selectContent" id="majorInfos" style="display:none;">
+					    	<ul>
+					    		<li data-id="0101">钢琴</li>
+					    		<li data-id="0202">小提琴</li>
+					    	</ul>
+					    </div>
+					    <div class="selectContent" id="groupInfos" style="display:none;">
+					    	<ul>
+					    		<li data-id="010101">少儿钢琴组组组组组</li>
+					    		<li data-id="020202">少儿小提琴组组组组组</li>
+					    	</ul>
+					    </div>
+					    <div class="selectContent" id="totalInfos" style="display:none;">
+					    	<ul>
+					    		<li data-id="0">最新</li>
+					    		<li data-id="1">最热</li>
+					    	</ul>
+					    </div>
+					</div>
+					<div class="ulList">
+						<ul>
+							<%-- <li>
+								<img src="${app}/h5/share/img/list.png" alt="" />
+								<p>
+									<span>小太阳</span>
+									<span style="float: right;color:#f44933;">30票</span>
+								</p>
+								<p>	
+									<span>
+									<img src="${app}/h5/share/img/lufei.jpg" alt=""  style="width: 0.6rem;border-radius: 50%;display:inline-block;vertical-align: middle;"/>
+									黄蒙蒙
+									</span>
+									<span class="vote">投他一票</span>
+								</p>
+							</li>
+							<li>
+								<img src="${app}/h5/share/img/list.png" alt="" />
+								<p>
+									<span>小太阳</span>
+									<span style="float: right;color:#f44933;">30票</span>
+								</p>
+								<p>	
+									<span>
+									<img src="${app}/h5/share/img/lufei.jpg" alt=""  style="width: 0.6rem;border-radius: 50%;display:inline-block;vertical-align: middle;"/>
+									黄蒙蒙
+									</span>
+									<span class="vote">投他一票</span>
+								</p>
+							</li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li> --%>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<script type="text/javascript" src="js/zepto.min.js"></script> 
+		<%-- <script type="text/javascript" src="${app}/h5/share/js/jquery-1.12.1.min.js"></script> --%>
+		<script type="text/javascript" src="js/common.js"></script>	
+		<script type="text/javascript" src="js/rem.js"></script>	
+		<script type="text/javascript" src="js/service.js"></script>	
+		<script type="text/javascript" src="js/broadcast.js"></script>
+		<script type="text/javascript" src="swiper/swiper.jquery.min.js"></script>
+		<script type="text/javascript" src="js/iscroll-probe.js"></script>
+	</body>	
+</html>
+

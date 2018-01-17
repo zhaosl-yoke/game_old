@@ -1,0 +1,63 @@
+#header{
+	height: 0.8rem;
+	background: #313131;
+	
+}
+#header ul {
+	display: -webkit-box;
+}
+#header ul li{	
+	height: 0.8rem;
+	color: #fff;
+	line-height: 0.8rem;
+}
+#header ul li:nth-child(1) {
+	width: 0.8rem;
+	text-align: center;
+}
+#header ul li:nth-child(2) {
+	-webkit-box-flex: 1;
+	text-align: center;
+	font-size: 0.3rem;
+}
+#header ul li:nth-child(3) {
+	width: 0.8rem;
+	text-align: center;
+	font-size: 0.5rem;
+}
+
+#container{
+    -webkit-box-flex: 1;
+   	position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    background:#f3f3f3;
+    font-size: 0.24rem;
+}
+#container h3{
+	margin-top: 0.1rem;
+	text-align: center;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+#container .time{
+	text-align: center;
+	font-size: 0.26rem;	
+}
+#container .content{
+	padding-left: 0.1rem;
+}
+#container .content .con{
+	text-indent: 0.48rem;
+	margin-top: 0.2rem;
+}
+#container .content img{
+	width: 80%;
+	display: block;
+	margin: 0.2rem auto;
+}
+#container .content .info{
+	text-align: center;
+	margin-bottom: 0.2rem;
+}

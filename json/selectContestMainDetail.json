@@ -1,0 +1,92 @@
+{
+    "success": true,
+    "msg": null,
+    "token": null,
+    "target": null,
+    "body": {
+        "contestMain": {
+            "id": 2,
+            "title": "米良机",
+            "desc1": "两机密",
+            "filepath": "不告诉你",
+            "startTime": 1486389582000,
+            "endTime": 1488380385000,
+            "sponsor": "随便去",
+            "actived": "1",
+            "stageId": null,
+            "profitSharing": 5,
+            "profitSharing1": 5,
+            "officeId": "1",
+            "createTime": 1487167211000,
+            "contestantCount": null,
+            "posts": null
+        },
+        "contestStages": [
+            {
+                "id": 1,
+                "contestId": 2,
+                "stageType": "online",
+                "codeName": "米良机音乐节海选",
+                "codeLevel": 1,
+                "fee": 1,
+                "startTime": 1487121792000,
+                "endTime": 1487726598000,
+                "actived": "1",
+                "address": null,
+                "desc1": null,
+                "createTime": 1487208212000,
+                "contestantCount": null,
+                "promotedNum": null
+            },
+            {
+                "id": 2,
+                "contestId": 3,
+                "stageType": "online",
+                "codeName": "米良机音乐节海选",
+                "codeLevel": 1,
+                "fee": 1,
+                "startTime": 1487121792000,
+                "endTime": 1487726598000,
+                "actived": "1",
+                "address": null,
+                "desc1": null,
+                "createTime": 1487208212000,
+                "contestantCount": null,
+                "promotedNum": null
+            },
+            {
+                "id": 3,
+                "contestId": 4,
+                "stageType": "online",
+                "codeName": "米良机音乐节海选",
+                "codeLevel": 1,
+                "fee": 1,
+                "startTime": 1487121792000,
+                "endTime": 1487726598000,
+                "actived": "1",
+                "address": null,
+                "desc1": null,
+                "createTime": 1487208212000,
+                "contestantCount": null,
+                "promotedNum": null
+            },
+            {
+                "id": 4,
+                "contestId": 5,
+                "stageType": "online",
+                "codeName": "米良机音乐节海选",
+                "codeLevel": 1,
+                "fee": 1,
+                "startTime": 1487121792000,
+                "endTime": 1487726598000,
+                "actived": "1",
+                "address": null,
+                "desc1": null,
+                "createTime": 1487208212000,
+                "contestantCount": null,
+                "promotedNum": null
+            }
+            
+        ]
+    }
+}

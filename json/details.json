@@ -1,0 +1,24 @@
+{
+    "success": true,
+    "msg": null,
+    "token": null,
+    "target": null,
+    "body": {
+        "scoreLists": [
+        {
+            "raterPhoto": null,
+            "raterName": "测试评委",
+            "score": 2,
+            "remark":"弹得很棒棒",
+            "isRecommend":1,
+            "createTime":1487462400000,
+            "raterAttachs":[{
+            	"catalog":null,
+            	"filename":"VIP",
+            	"extension":"png"
+            
+            }]
+        }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "success": true,
+    "msg": null,
+    "token": null,
+    "target": null,
+    "body": {
+        "contestMain": {
+            "id": 12,
+            "title": "钢琴一对一",
+            "desc1": "钢琴一对一小组课",
+            "startTime": 1487127095023,
+            "filepath": "1111",
+            "endTime": 1487127095023,
+            "actived": 1,
+            "profitSharing": 2,
+            "profitSharing1": 8,
+            "officeId": 11,
+            "createTime": 1487127095023
+        },
+        "contestStages": [
+            {
+                "id": 12,
+                "contestId": "钢琴一对一",
+                "stageType": "钢琴一对一小组课",
+                "codeName": "海选",
+                "codeLevel": 1,
+                "fee": 10000,
+                "startTime": 1487127095023,
+                "address": null,
+                "endTime": 1487127095023,
+                "actived": 1,
+                "createTime": 1487127095023,
+                "contestantCount": "100"
+            },
+            {
+                "id": 12,
+                "contestId": "钢琴一对一",
+                "stageType": "钢琴一对一小组课",
+                "codeName": "海选",
+                "codeLevel": 1,
+                "fee": 10000,
+                "startTime": 1487127095023,
+                "address": null,
+                "endTime": 1487127095023,
+                "actived": 1,
+                "createTime": 1487127095023,
+                "contestantCount": "100"
+            }
+        ]
+    }
+}

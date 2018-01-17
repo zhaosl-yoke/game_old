@@ -1,0 +1,18 @@
+{
+    "success": true,
+    "msg": null,
+    "token": null,
+    "target": null,
+    "body": {
+        "work":{
+            "contestantPhoto": null,
+            "contestantName": "测试名",
+            "isVip": 1,
+            "url": null,
+            "createTime": 1487462400000,
+            "trackName": "车尔尼钢琴初步教程-作品599",
+            "paragraphName": "第98条",
+            "thumb": null
+        }
+    }
+}
